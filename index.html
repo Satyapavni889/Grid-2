@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            border: 2px solid;
+            background-color: darkslategrey;
+            display: grid;
+            grid-template-columns:repeat(3, auto) ;
+            height: 300px;
+            width: 500px;
+            gap: px;
+
+        }
+        .cd1{
+            background-color: red;
+            grid-row:1/4 ;
+        }
+        .cd2{
+            background-color: aqua;
+            grid-column: 2/4;
+            grid-row: 1/3;
+        }
+        .cd3{
+            background-color: darkgoldenrod;
+            grid-column: 4/6;
+            grid-row: 1/3;
+        }
+        .cd4{
+            background-color: darkgoldenrod;
+            grid-row: ;
+        }
+        /* .cd5{
+            background-color: white;
+            grid-column:3/5 ;
+        }
+        .cd6{
+            background-color: red;
+            grid-row:;
+        } */
+        .cd7{
+            background-color: white;
+            grid-row: ;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="cd1">1</div>
+        <div class="cd2">2</div>
+        <div class="cd3">3</div>
+        <div class="cd4">4</div>
+        <div class="cd5">5</div>
+        <div class="cd6">6</div>
+        <div class="cd7">7</div>
+        <div class="cd8">8</div>
+        <div class="cd9">9</div>
+        <div class="cd5">5</div>
+        <div class="cd6">6</div>
+        <div class="cd7">7</div>
+        <div class="cd8">8</div>
+        <div class="cd9">9</div>
+    </div>
+</body>
+</html>
